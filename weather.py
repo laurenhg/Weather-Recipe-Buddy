@@ -22,3 +22,4 @@ def get_weather(city):
     return none
     except requests.exceptions.RequestException as e:
         print(f"Error fetching weather data: {e}")
+        return None

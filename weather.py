@@ -1,7 +1,7 @@
 import requests
 
 def get_weather(city):
-    api_key = ""
+    api_key = "182ba813dcb21cfb58a884cb7ef2259f"
     url = f"http://api.weatherstack.com/current"
     params = {
         "access_key": api_key,

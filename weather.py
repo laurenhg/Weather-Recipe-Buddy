@@ -1,16 +1,30 @@
 import requests
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
 
 def get_weather(city):
-    api_key = ""
+
+    api_key = os.getenv("WEATHER_API_KEY")
+    if not api_key:
+        print("Error: WEATHER_API_KEY is not set in the environment variables.")
+        return None
+
     url = "http://api.weatherstack.com/current"
     params = {
         "access_key": api_key,
         "query": city
     }
+
     try:
+
         response = requests.get(url, params=params)
         response.raise_for_status()
         data = response.json()
+
+
         if "current" in data and "location" in data:
             weather = {
                 "temperature": data["current"]["temperature"],

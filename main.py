@@ -1,6 +1,7 @@
 from menu import display_menu
 from weather import get_weather
 from recipes import get_recipes
+from save_favourites import save_recipe, view_saved_recipes
 from weather_to_food import suggest_recipe_based_on_weather
 
 def main():
@@ -15,28 +16,27 @@ def main():
                 print(f"Description: {weather_data['description']}")
 
                 recipe_category = suggest_recipe_based_on_weather(weather_data)
-                print(f"\Suggested recipes for{recipe_category}:")
+                print(f"\nSuggested recipes for {recipe_category}:")
                 recipes = get_recipes(recipe_category)
 
                 if recipes:
                     for i, recipe in enumerate(recipes, 1):
-                        print(f"{i}. {recipe[title]}")
-                        save = input("Would you like to save a recipe? (y/n): ").lower()
-                        if save == "y":
-                            recipe_index = int(input("Enter the recipe number to save: ")) -1
-                            save_recipe(recipes[recipe_index])
-
-                        else:
-                            print("No reicpes found for this category.")
-                            else:
-                            print("Could not fetch weather data.")
-                        elif choice == 2:
-                        view_saved_recipes ()
-                    elif == 3:
-                        print ("Goodbye!")
-                        break
+                        print(f"{i}. {recipe['title']}")
+                    save = input("Would you like to save a recipe? (y/n): ").lower()
+                    if save == "y":
+                        recipe_index = int(input("Enter the recipe number to save: ")) - 1
+                        save_recipe(recipes[recipe_index])
                 else:
-                    print("Invalid choice. Try again.")
+                    print("No recipes found for this category.")
+            else:
+                print("Could not fetch weather data.")
+        elif choice == 2:
+            view_saved_recipes()
+        elif choice == 3:
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice. Try again.")
 
-                    if__name__ == "__main__":
-                    main()
+if __name__ == "__main__":
+    main()

@@ -2,8 +2,9 @@ import requests
 from dotenv import load_dotenv
 import os
 
+load_dotenv(dotenv_path=".env")
 
-load_dotenv()
+print(f"WEATHER_API_KEY loaded: {os.getenv('WEATHER_API_KEY')}")
 
 def get_weather(city):
     api_key = os.getenv("WEATHER_API_KEY")
@@ -35,15 +36,3 @@ def get_weather(city):
     except requests.exceptions.RequestException as e:
         print(f"Error fetching weather data: {e}")
         return None
-
-
-# Add the test code here, outside the function
-if __name__ == "__main__":
-    city = input("Enter a city name: ")
-    weather = get_weather(city)
-    if weather:
-        print(f"Weather in {weather['city']}:")
-        print(f"Temperature: {weather['temperature']}°C")
-        print(f"Description: {weather['description']}")
-    else:
-        print("Failed to fetch weather information.")

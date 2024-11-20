@@ -21,3 +21,4 @@ def view_saved_recipes():
         print("No saved recipes found.")
     except IOError as e:
         print(f"Error reading saved recipes: {e}")
+

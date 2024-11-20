@@ -1,11 +1,11 @@
 import requests
 
 def get_recipes(food_category):
-    api_key = "YOUR_SPOONACULAR_API_KEY"
+    api_key = "YOUR_SPOONACULAR_API_KEY"  # Replace with your Spoonacular API key
     url = "https://api.spoonacular.com/recipes/complexSearch"
     params = {
         "query": food_category,
-        "number": 5,  # Get 5 recipes
+        "number": 5,
         "apiKey": api_key
     }
 

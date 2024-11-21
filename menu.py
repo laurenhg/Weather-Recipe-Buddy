@@ -1,4 +1,5 @@
 def display_menu():
+
     print("\nWeather-Recipe Buddy")
     print("1. Get Current Weather and Recipe Suggestions")
     print("2. View Saved Recipes")

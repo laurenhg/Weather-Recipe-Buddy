@@ -2,11 +2,11 @@ import requests
 from dotenv import load_dotenv
 import os
 
-load_dotenv(dotenv_path=".env")
-
-print(f"WEATHER_API_KEY loaded: {os.getenv('WEATHER_API_KEY')}")
+# Load environment variables once
+load_dotenv()
 
 def get_weather(city):
+
     api_key = os.getenv("WEATHER_API_KEY")
     if not api_key:
         print("Error: WEATHER_API_KEY is not set in the environment variables.")
@@ -31,7 +31,7 @@ def get_weather(city):
             }
             return weather
         else:
-            print("Error: Unable to retrieve weather data.")
+            print(f"Error: Unexpected API response: {data}")
             return None
     except requests.exceptions.RequestException as e:
         print(f"Error fetching weather data: {e}")

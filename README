@@ -1,4 +1,4 @@
-Weather-Recipe Buddy
+<u>**Weather-Recipe Buddy**<u>
 
 Weather-Recipe Buddy is a Python application that suggests personalized recipe ideas based on the current weather in your city. By fetching real-time weather data and leveraging a recipe API, it provides recommendations that suit the weather conditions, temperature, and even your location. You can also save your favorite recipes, organized by categories, for easy access later.
 
@@ -40,13 +40,17 @@ Installation
 1. Clone the Repository
 
 Clone the repository from GitHub and navigate into the project directory:
-git clone https://github.com/yourusername/weather-recipe-buddy.git
+
+git clone https://github.com/laurenhg/weather-recipe-buddy.git
 cd weather-recipe-buddy
 
 2. Create a Virtual Environment (Recommended)
 
 Creating a virtual environment helps manage dependencies:
-python -m venv venv
+`python -m venv venv`
 
 Activate the virtual environment:
 	•	On Windows:
+	`venv\Scripts\activate`
+
+		•	On macOS/Linux:

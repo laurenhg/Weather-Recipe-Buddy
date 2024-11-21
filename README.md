@@ -1,28 +1,27 @@
 # <u>**Weather Recipe Buddy**</u>
 
 Weather-Recipe Buddy is a Python application that suggests personalized recipe ideas based on the current weather in your city. By fetching real-time weather data and leveraging a recipe API, it provides recommendations that suit the weather conditions, temperature, and even your location. You can also save your favorite recipes, organized by categories, for easy access later.
+# Table of Contents
 
-# **Table of Contents**
-
-	1. [Features](#features)
-	2. [Prerequisites](#prerequisites)
-	3.  [Installation](#installation)
-		1. [1. Clone the Repository](#clone)
-		2. Create a Virtual Environment (Recommended)
-	•	3. Install Dependencies
-	•	4. Set Up API Keys
-	•	Usage
-	•	Running the Application
-	•	Menu Options
-	•	Example Session
-	•	Troubleshooting
-	•	Contributing
-	•	License
-	•	Contact
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+   1. [Clone the Repository](#clone)
+   2. [Create a Virtual Environment (Recommended)](#create)
+   3. [Install Dependencies](#install)
+   4. [Set Up API Keys](#API)
+4. [Usage](#usage)
+5. [Running the Application](#running)
+6. [Menu Options](#menu)
+7. [Example Session](#example)
+8. [Troubleshooting](#troubleshooting)
+9. [Contributing](#contributing)
+10. [License](#license)
+11. [Contact](#contact)
 
 ### Features
 
-	•	Weather-Based Recipe Suggestions: Get recipe recommendations that match the current weather in your city.
+	•	**Weather-Based Recipe Suggestions:** Get recipe recommendations that match the current weather in your city.
 	•	Save Favorites: Save your favorite recipes under specific categories for easy retrieval.
 	•	Recipe Details: Access recipe titles and source URLs for detailed instructions.
 	•	User-Friendly Interface: Simple command-line interface suitable for beginners.

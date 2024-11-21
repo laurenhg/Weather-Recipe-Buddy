@@ -62,7 +62,7 @@ The application requires API keys for:
 
 **Obtain API Keys**
 - **Weeatherstack API Key:** Sign up for a free account at Weatherstack to get your API key.
-- **Spoonaculare API Key:** Sign up fora free account at Spoonacular to get your API key.
+- **Spoonaculare API Key:** Sign up for a free account at Spoonacular to get your API key.
 
 **Creat a .env File** 
 Create a file named .env in the root directory of the project and add your API keys:

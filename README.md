@@ -2,7 +2,7 @@
 
 Weather-Recipe Buddy is a Python application that suggests personalized recipe ideas based on the current weather in your city. By fetching real-time weather data and leveraging a recipe API, it provides recommendations that suit the weather conditions, temperature, and even your location. You can also save your favorite recipes, organized by categories, for easy access later.
 
-**Table of Contents**
+# **Table of Contents**
 
 	1. [Features](#features)
 	2. [Prerequisites](#prerequisites)

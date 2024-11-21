@@ -1,27 +1,52 @@
-# Weather-Recipe Buddy
+Weather-Recipe Buddy
 
-Weather-Recipe Buddy is a Python application that suggests recipe ideas based on the current weather in your city. It fetches weather data and provides personalized recipe recommendations accordingly. You can also save your favorite recipes for later viewing, organized by categories.
+Weather-Recipe Buddy is a Python application that suggests personalized recipe ideas based on the current weather in your city. By fetching real-time weather data and leveraging a recipe API, it provides recommendations that suit the weather conditions, temperature, and even your location. You can also save your favorite recipes, organized by categories, for easy access later.
 
-## **Features**
+Table of Contents
 
-- Fetches current weather data for any city using the Weatherstack API.
-- Suggests recipes based on weather conditions, temperature, and location using the Spoonacular API.
-- Allows users to save favorite recipes under specific categories.
-- Provides detailed recipe information, including title and source URL.
-- Simple command-line interface suitable for beginners.
+	•	Features
+	•	Prerequisites
+	•	Installation
+	•	1. Clone the Repository
+	•	2. Create a Virtual Environment (Recommended)
+	•	3. Install Dependencies
+	•	4. Set Up API Keys
+	•	Usage
+	•	Running the Application
+	•	Menu Options
+	•	Example Session
+	•	Troubleshooting
+	•	Contributing
+	•	License
+	•	Contact
 
-## **Prerequisites**
+Features
 
-- Python 3.7 or higher installed on your system.
-- Access to a command-line interface or terminal.
-- An internet connection to fetch data from the APIs.
+	•	Weather-Based Recipe Suggestions: Get recipe recommendations that match the current weather in your city.
+	•	Save Favorites: Save your favorite recipes under specific categories for easy retrieval.
+	•	Recipe Details: Access recipe titles and source URLs for detailed instructions.
+	•	User-Friendly Interface: Simple command-line interface suitable for beginners.
+	•	Varied Cuisine Options: Includes a diverse range of recipes, considering temperature, weather conditions, and location.
 
-## **Installation**
+Prerequisites
 
-### **1. Clone the Repository**
+	•	Python: Version 3.7 or higher.
+	•	Internet Connection: Required to fetch data from APIs.
+	•	APIs:
+	•	Weatherstack API: For fetching weather data.
+	•	Spoonacular API: For fetching recipe data.
+Installation
 
-First, clone the repository from GitHub and navigate into the project directory:
+1. Clone the Repository
 
-```bash
+Clone the repository from GitHub and navigate into the project directory:
 git clone https://github.com/yourusername/weather-recipe-buddy.git
 cd weather-recipe-buddy
+
+2. Create a Virtual Environment (Recommended)
+
+Creating a virtual environment helps manage dependencies:
+python -m venv venv
+
+Activate the virtual environment:
+	•	On Windows:

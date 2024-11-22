@@ -102,5 +102,5 @@ def get_recipes(food_category):
             return []
     except requests.exceptions.RequestException as e:
         print(f"Error fetching recipes: {e}")
-
+        return []
 

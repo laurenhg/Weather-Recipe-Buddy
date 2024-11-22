@@ -23,6 +23,15 @@ def get_weather(city):
         response.raise_for_status()
         data = response.json()
 
+        # Check if the API call was successful
+        if 'success' in data and data['success'] == False:
+            error_code = data.get('error', {}).get('code', 'Unknown')
+            if error_code == 615:
+                print("\nThe city name seems invalid or not found. Please check the spelling and try again.")
+            else:
+                print(f"\nError: {data.get('error', {}).get('info', 'An unknown error occurred.')}")
+            return None
+
         if "current" in data and "location" in data:
             weather = {
                 "temperature": data["current"]["temperature"],
@@ -31,8 +40,8 @@ def get_weather(city):
             }
             return weather
         else:
-            print(f"Error: Unexpected API response: {data}")
+            print("\nSorry, we couldn't retrieve weather data for that location.")
             return None
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching weather data: {e}")
+        print(f"\nError fetching weather data: {e}")
         return None

@@ -1,9 +1,9 @@
 def display_menu():
-
     print("\nWeather-Recipe Buddy")
-    print("1. Get Current Weather and Recipe Suggestions")
+    print("1. Check Weather")
     print("2. View Saved Recipes")
-    print("3. Exit")
+    print("3. Generate a Random Recipe")
+    print("4. Exit")
     try:
         return int(input("Enter your choice: "))
     except ValueError:

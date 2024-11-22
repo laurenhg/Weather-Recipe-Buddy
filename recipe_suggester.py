@@ -1,71 +1,62 @@
 def suggest_recipe_based_on_weather(weather):
     try:
-
-        temp = float(weather.get("temperature", 20))  # Default temperature: 20°C
+        temp = float(weather.get("temperature", 20))
         description = weather.get("description", "").lower()
         city = weather.get("city", "").lower()
 
+        recipe_category = suggest_by_weather(description, temp)
+        if recipe_category:
+            return recipe_category
 
-        recipe = suggest_by_weather(description, temp)
-        if recipe:
-            return recipe
-
-
-        recipe = suggest_by_city(city)
-        if recipe:
-            return recipe
-
+        recipe_category = suggest_by_city(city)
+        if recipe_category:
+            return recipe_category
 
         return suggest_by_temperature(temp)
 
     except (TypeError, ValueError) as e:
         print(f"Error processing weather data: {e}")
-        return "quick meals"
-
+        return "main course"
 
 def suggest_by_weather(description, temp):
-
     if "rain" in description or "drizzle" in description:
-        return "hearty soup" if temp < 10 else "soup"
+        return "soup"
     elif "snow" in description:
         return "stew"
     elif "thunderstorm" in description:
-        return "comfort food"
+        return "main course"
     elif "clear" in description or "sunny" in description:
         if temp > 25:
             return "salad"
         elif temp > 15:
-            return "grilled dishes"
+            return "barbecue"
         else:
-            return "light meals"
+            return "main course"
     elif "cloudy" in description or "overcast" in description:
-        return "casserole" if temp < 10 else "pasta"
+        return "pasta"
     return None
 
-
 def suggest_by_city(city):
-
     cuisine_map = {
-        "mexico": "mexican",
-        "japan": "japanese",
-        "italy": "italian",
-        "india": "indian",
+        "mexico": "Mexican",
+        "japan": "Japanese",
+        "italy": "Italian",
+        "india": "Indian",
+        # Add more mappings as needed
     }
     for key, cuisine in cuisine_map.items():
         if key in city:
             return cuisine
     return None
 
-
 def suggest_by_temperature(temp):
-
     if temp < 0:
-        return "hot chocolate"
+        return "soup"
     elif temp < 10:
-        return "baked goods"
+        return "dessert"
     elif temp < 20:
-        return "comfort food"
+        return "main course"
     elif temp < 30:
         return "barbecue"
     else:
-        return "smoothies"
+        return "drink"

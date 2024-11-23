@@ -1,11 +1,16 @@
-import requests
 from config import SPOONACULAR_API_KEY
-import os
+import requests
 
 def get_random_recipe():
     if not SPOONACULAR_API_KEY:
         print("Error: SPOONACULAR_API_KEY is not set in the environment variables.")
         return None
+
+    url = "https://api.spoonacular.com/recipes/random"
+    params = {
+        "apiKey": SPOONACULAR_API_KEY,
+        "number": 1
+    }
 
     url = "https://api.spoonacular.com/recipes/random"
     params = {

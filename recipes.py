@@ -1,7 +1,7 @@
 import requests
 from wine_pairing import get_wine_pairing
 from config import SPOONACULAR_API_KEY
-import os
+
 import random
 
 def get_recipes(food_category):

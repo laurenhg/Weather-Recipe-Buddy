@@ -26,7 +26,7 @@ def get_cooking_playlists(sp, keyword="cooking"):
         playlists = results["playlists"]["items"]
 
         # Randomly select 5 playlists from the pool
-        random_playlists = random.sample(playlists, min(len(playlists), 5))
+        random_playlists = random.sample(playlists, min(len(playlists), 3))
         suggested_playlists = []
 
         for playlist in random_playlists:

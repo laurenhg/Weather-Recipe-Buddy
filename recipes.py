@@ -1,5 +1,4 @@
 import requests
-from wine_pairing import get_wine_pairing
 from config import SPOONACULAR_API_KEY
 
 import random
@@ -64,8 +63,6 @@ def get_recipes(food_category):
                     recipe["sourceUrl"] = None  # Explicitly set to None if no valid URL
 
                     dish_name = recipe.get("title", "")
-                    wine_pairing = get_wine_pairing(dish_name)
-                    recipe["winePairing"] = wine_pairing
 
             return results
 

@@ -1,6 +1,5 @@
 import json
-from datetime import datetime
-from display import display_favourites
+
 
 FAVOURITES_FILE = "favourites.json"
 
@@ -19,6 +18,10 @@ def get_valid_url(recipe):
 
 def save_recipe(recipe, category):
 
+    dish_name = recipe.get(TITLE_KEY, "No Title")
+
+
+    # Load existing favourites or create a new dictionary
     try:
         with open(FAVOURITES_FILE, "r") as file:
             favourites = json.load(file)
@@ -39,7 +42,7 @@ def save_recipe(recipe, category):
         TITLE_KEY: recipe.get(TITLE_KEY, 'No Title'),
         SOURCE_URL_KEY: valid_url,
         IMAGE_KEY: recipe.get(IMAGE_KEY, ''),
-        SUMMARY_KEY: recipe.get(SUMMARY_KEY, '')
+        SUMMARY_KEY: recipe.get(SUMMARY_KEY, ''),
     }
 
     normalized_title = simplified_recipe[TITLE_KEY].strip().lower()
@@ -51,6 +54,7 @@ def save_recipe(recipe, category):
 
     favourites[category].append(simplified_recipe)
 
+    # Save updated favourites to the file
     try:
         with open(FAVOURITES_FILE, "w") as file:
             json.dump(favourites, file, indent=4)
@@ -79,4 +83,11 @@ def view_saved_recipes():
         print("\nNo saved recipes found.")
         return
 
-    display_favourites(favourites)
+    print("\nYour Saved Recipes:")
+    for category, recipes in favourites.items():
+        print(f"\nCategory: {category.capitalize()}")
+        for i, recipe in enumerate(recipes, start=1):
+            print(f"{i}. {recipe[TITLE_KEY]}")
+            print(f"   Link: {recipe.get(SOURCE_URL_KEY, 'No URL available')}")
+
+    print("\nEnd of list.")

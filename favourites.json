@@ -1,76 +1,44 @@
 {
-    "pasta": [
+    "main course": [
         {
-            "title": "Zesty Green Pea and Jalape\u00f1o Pesto Pasta",
-            "sourceUrl": "https://www.foodandspice.com/2014/09/zesty-green-pea-and-jalapeno-pesto-pasta.html",
-            "image": "https://img.spoonacular.com/recipes/715957-312x231.jpg",
-            "summary": "Zesty Green Pean and Jalape\u00f1o Pesto Pasta requires approximately <b>45 minutes</b> from start to finish. One serving contains <b>318 calories</b>, <b>9g of protein</b>, and <b>12g of fat</b>. For <b>$1.1 per serving</b>, you get a side dish that serves 4. 100 people have tried and liked this recipe. A mixture of basil leaves, olive oil, rotini pasta, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by foodandspice.blogspot.com. It is a good option if you're following a <b>dairy free</b> diet. Overall, this recipe earns a <b>spectacular spoonacular score of 98%</b>. Similar recipes are <a href=\"https://spoonacular.com/recipes/zesty-green-pea-and-jalapeo-pesto-pasta-612574\">Zesty Green Pean and Jalape\u00f1o Pesto Pasta</a>, <a href=\"https://spoonacular.com/recipes/pasta-with-cilantro-jalapeo-pesto-fresh-corn-tomatoes-495476\">Pasta with Cilantro Jalape\u00f1o Pesto, Fresh Corn & Tomatoes</a>, and <a href=\"https://spoonacular.com/recipes/beet-green-and-radish-green-pesto-pasta-with-roasted-beets-and-radishes-149271\">Beet Green and Radish Green Pesto Pasta with Roasted Beets and Radishes</a>."
-        },
-        {
-            "title": "Arugula & Feta Pasta",
-            "sourceUrl": "https://www.foodista.com/recipe/TKHGFFJW/arugula-feta-pasta",
-            "image": "https://img.spoonacular.com/recipes/632781-312x231.jpg",
-            "summary": "Arugula & Feta Pastan is a main course that serves 4. One portion of this dish contains approximately <b>17g of protein</b>, <b>38g of fat</b>, and a total of <b>598 calories</b>. For <b>$1.88 per serving</b>, this recipe <b>covers 14%</b> of your daily requirements of vitamins and minerals. This recipe is liked by 1 foodies and cooks. Only a few people really liked this Mediterranean dish. This recipe from Foodista requires squeezed lemon, garlic cloves, olive oil, and parmesan. From preparation to the plate, this recipe takes about <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 57%</b>. This score is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/pasta-with-arugula-and-feta-8592\">Pasta with Arugulan And Feta</a>, <a href=\"https://spoonacular.com/recipes/pasta-with-prosciutto-arugula-and-feta-542185\">PASTA WITH PROSCIUTTO, ARUGULAn AND FETA</a>, and <a href=\"https://spoonacular.com/recipes/quinoa-salad-with-arugula-and-feta-8742\">Quinoa Salad With Arugulan And Feta</a>."
-        },
-        {
-            "title": "Lemon Pasta With Shrimp",
-            "sourceUrl": "https://www.foodista.com/recipe/QGY46F3K/lemon-pasta-with-shrimp",
-            "image": "https://img.spoonacular.com/recipes/649717-312x231.jpg",
-            "summary": "You can never have too many main course recipes, so give Lemon Pasta With Shrimp a try. This recipe serves 4 and costs $3.2 per serving. One portion of this dish contains around <b>37g of protein</b>, <b>24g of fat</b>, and a total of <b>560 calories</b>. This recipe from Foodista requires olive oil, juice of lemon, cilantro, and garlic clove. 1 person has tried and liked this recipe. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 55%</b>, which is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/lemon-pasta-with-roasted-shrimp-393001\">Lemon Pasta with Roasted Shrimp</a>, <a href=\"https://spoonacular.com/recipes/lemon-pasta-with-shrimp-and-broccoli-553472\">Lemon pasta with shrimp and broccoli</a>, and <a href=\"https://spoonacular.com/recipes/creamy-lemon-shrimp-pasta-270021\">Creamy Lemon Shrimp Pasta</a>."
-        },
-        {
-            "title": "Cajun Lobster Pasta",
-            "sourceUrl": "https://www.foodista.com/recipe/36T2YS7G/cajun-lobster-pasta",
-            "image": "https://img.spoonacular.com/recipes/636732-312x231.jpg",
-            "summary": "Cajun Lobster Pasta could be just the <b>gluten free and primal</b> recipe you've been looking for. For <b>$5.4 per serving</b>, this recipe <b>covers 45%</b> of your daily requirements of vitamins and minerals. One serving contains <b>684 calories</b>, <b>35g of protein</b>, and <b>50g of fat</b>. This recipe serves 1. 2 people have made this recipe and would make it again. This recipe is typical of Cajun cuisine. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. A mixture of garlic powder, bell pepper, lemon pepper, and a handful of other ingredients are all it takes to make this recipe so yummy. It is brought to you by Foodista. It works well as a main course. Taking all factors into account, this recipe <b>earns a spoonacular score of 76%</b>, which is pretty good. <a href=\"https://spoonacular.com/recipes/cajun-lobster-pasta-1396967\">Cajun Lobster Pasta</a>, <a href=\"https://spoonacular.com/recipes/cajun-lobster-pasta-1614055\">Cajun Lobster Pasta</a>, and <a href=\"https://spoonacular.com/recipes/red-lobster-cajun-chicken-pasta-138824\">Red Lobster Cajun Chicken Pasta</a> are very similar to this recipe."
-        }
-    ],
-    "salad": [
-        {
-            "title": "Radish & Snap Pea Quinoa Salad",
-            "sourceUrl": "https://www.foodista.com/recipe/684WRQ6L/radish-snap-pea-quinoa-salad",
-            "image": "https://img.spoonacular.com/recipes/657719-312x231.jpg",
-            "summary": "Radish & Snap Pea Quinoa Salad is a <b>gluten free and lacto ovo vegetarian</b> hor d'oeuvre. For <b>$1.68 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. One serving contains <b>262 calories</b>, <b>11g of protein</b>, and <b>7g of fat</b>. This recipe serves 4. If you have juice of lemon, flat leaf parsley, snap peas, and a few other ingredients on hand, you can make it. 2 people have tried and liked this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Taking all factors into account, this recipe <b>earns a spoonacular score of 92%</b>, which is spectacular. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/sugar-snap-pea-and-radish-salad-18285\">Sugar Snap Pean And Radish Salad</a>, <a href=\"https://spoonacular.com/recipes/radish-and-sugar-snap-pea-salad-18551\">Radish And Sugar Snap Pea Salad</a>, and <a href=\"https://spoonacular.com/recipes/snap-pea-salad-with-radish-lime-36681\">Snap Pea Salad With Radish & Lime</a>."
+            "title": "Tuscan White Bean Soup with Olive Oil and Rosemary",
+            "sourceUrl": "https://www.foodista.com/recipe/HPKTNKY5/tuscan-white-bean-soup-with-olive-oil-and-rosemary",
+            "image": "https://img.spoonacular.com/recipes/664147-312x231.jpg",
+            "summary": "Tuscan White Bean Soup with Olive Oil and Rosemary is a <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe with 6 servings. This main course has <b>242 calories</b>, <b>16g of protein</b>, and <b>1g of fat</b> per serving. For <b>50 cents per serving</b>, this recipe <b>covers 19%</b> of your daily requirements of vitamins and minerals. It will be a hit at your <b>Autumn</b> event. 22 people found this recipe to be tasty and satisfying. Head to the store and pick up olive oil, rosemary, garlic, and a few other things to make it today. It is brought to you by Foodista. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 79%</b>, this dish is good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/white-bean-soup-with-pasta-and-rosemary-oil-drizzle-855454\">White Bean Soup with Pastan and Rosemary Oil Drizzle</a>, <a href=\"https://spoonacular.com/recipes/tuscan-white-bean-and-fennel-stew-with-orange-and-rosemary-105383\">Tuscan White Bean and Fennel Stew With Orange and Rosemary</a>, and <a href=\"https://spoonacular.com/recipes/tuscan-white-bean-soup-1054940\">Tuscan White Bean Soup</a>.",
+            "winePairing": {
+                "pairedWines": [],
+                "pairingText": "Sorry, no wine pairings available for this dish"
+            }
         }
     ],
     "Random": [
         {
-            "title": "Roasted Sea Bream With Anchoiade",
-            "sourceUrl": "https://www.foodista.com/recipe/BK8PSBHG/roasted-sea-bream-with-anchoiade",
-            "image": "https://img.spoonacular.com/recipes/658661-556x370.jpg",
-            "summary": "Need a <b>gluten free, dairy free, paleolithic, and primal main course</b>? Roasted Sea Bream With Anchoiade could be a great recipe to try. For <b>$5.53 per serving</b>, this recipe <b>covers 18%</b> of your daily requirements of vitamins and minerals. This recipe makes 6 servings with <b>591 calories</b>, <b>64g of protein</b>, and <b>30g of fat</b> each. If you have sea bream, anchovies, peppers, and a few other ingredients on hand, you can make it. 2 people have tried and liked this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. With a spoonacular <b>score of 79%</b>, this dish is good. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/roasted-sea-bream-with-herbs-85789\">Roasted Sea Bream With Herbs</a>, <a href=\"https://spoonacular.com/recipes/sea-bream-in-sea-salt-with-salsa-verde-316611\">Sea Bream in Sea Salt with Salsa Verde</a>, and <a href=\"https://spoonacular.com/recipes/sea-bream-escabeche-22506\">Sea Bream Escabeche</a>."
+            "title": "Sun-dried Tomato & Artichoke Tuna Casserole",
+            "sourceUrl": "https://www.foodista.com/recipe/QXNWZ7SQ/sun-dried-artichoke-tuna-casserole",
+            "image": "https://img.spoonacular.com/recipes/662287-556x370.png",
+            "summary": "Sun-dried Tomato & Artichoke Tuna Casserole is a <b>pescatarian</b> recipe with 4 servings. One portion of this dish contains roughly <b>41g of protein</b>, <b>27g of fat</b>, and a total of <b>829 calories</b>. For <b>$2.96 per serving</b>, this recipe <b>covers 31%</b> of your daily requirements of vitamins and minerals. <b>Autumn</b> will be even more special with this recipe. 2 people were impressed by this recipe. It works well as an American main course. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. Head to the store and pick up sundried tomatoes, tuna, artichoke hearts, and a few other things to make it today. Taking all factors into account, this recipe <b>earns a spoonacular score of 67%</b>, which is good. Similar recipes include <a href=\"https://spoonacular.com/recipes/sun-dried-tomato-artichoke-tuna-casserole-1295031\">Sun-dried Tomato & Artichoke Tuna Casserole</a>, <a href=\"https://spoonacular.com/recipes/artichoke-and-sun-dried-tomato-focaccia-757929\">Artichoke and Sun-Dried Tomato Focaccia</a>, and <a href=\"https://spoonacular.com/recipes/sun-dried-tomato-and-artichoke-frittata-499597\">Sun-Dried Tomato and Artichoke Frittata</a>.",
+            "winePairing": {
+                "pairedWines": [],
+                "pairingText": "Sorry, no wine pairings available for this dish"
+            }
         },
         {
-            "title": "Moosewood Lentil Soup",
-            "sourceUrl": "https://www.foodista.com/recipe/TNZ67L5Y/moosewood-lentil-soup",
-            "image": "https://img.spoonacular.com/recipes/652393-556x370.jpg",
-            "summary": "Moosewood Lentil Soup might be a good recipe to expand your main course recipe box. This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe serves 6 and costs <b>74 cents per serving</b>. One portion of this dish contains roughly <b>26g of protein</b>, <b>4g of fat</b>, and a total of <b>396 calories</b>. A mixture of pepper, lentils, salt, and a handful of other ingredients are all it takes to make this recipe so yummy. 2 people found this recipe to be flavorful and satisfying. It is perfect for <b>Autumn</b>. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 95%</b>. This score is spectacular. Similar recipes are <a href=\"https://spoonacular.com/recipes/moosewood-lentil-soup-1319699\">Moosewood Lentil Soup</a>, <a href=\"https://spoonacular.com/recipes/moosewood-mushroom-barley-soup-143909\">Moosewood Mushroom Barley Soup!</a>, and <a href=\"https://spoonacular.com/recipes/hungarian-mushroom-soup-from-the-moosewood-cookbook-143242\">Hungarian Mushroom Soup, from the Moosewood Cookbook</a>."
-        },
-        {
-            "title": "Baked Salmon With Lime",
-            "sourceUrl": "https://www.foodista.com/recipe/ZMQQY5TD/baked-salmon-with-lime",
-            "image": "https://img.spoonacular.com/recipes/633779-556x370.jpg",
-            "summary": "If you want to add more <b>gluten free and pescatarian</b> recipes to your recipe box, Baked Salmon With Lime might be a recipe you should try. For <b>$7.11 per serving</b>, this recipe <b>covers 30%</b> of your daily requirements of vitamins and minerals. This recipe makes 2 servings with <b>296 calories</b>, <b>36g of protein</b>, and <b>13g of fat</b> each. It works well as an expensive main course. 3 people were impressed by this recipe. Head to the store and pick up peppercorns, spring onion, cooking wine, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 79%</b>, which is solid. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/chili-lime-baked-salmon-in-foil-1704907\">Chili-Lime Baked Salmon in Foil</a>, <a href=\"https://spoonacular.com/recipes/chili-lime-baked-salmon-in-foil-911476\">Chili-Lime Baked Salmon in Foil</a>, and <a href=\"https://spoonacular.com/recipes/chili-lime-baked-salmon-in-foil-1645391\">Chili-Lime Baked Salmon in Foil</a>."
-        },
-        {
-            "title": "Dutch Oven Paella",
-            "sourceUrl": "https://www.foodista.com/recipe/HD6HS3BD/dutch-oven-paella",
-            "image": "https://img.spoonacular.com/recipes/631747-556x370.jpg",
-            "summary": "Dutch Oven Paellan is a main course that serves 6. For <b>$4.74 per serving</b>, this recipe <b>covers 31%</b> of your daily requirements of vitamins and minerals. One serving contains <b>670 calories</b>, <b>43g of protein</b>, and <b>24g of fat</b>. 6 people found this recipe to be yummy and satisfying. If you have garlic cloves, flat parsely, chicken thighs, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. This recipe is typical of European cuisine. From preparation to the plate, this recipe takes around <b>45 minutes</b>. It is a good option if you're following a <b>dairy free</b> diet. Taking all factors into account, this recipe <b>earns a spoonacular score of 78%</b>, which is good. <a href=\"https://spoonacular.com/recipes/dutch-oven-paella-1438817\">Dutch Oven Paella</a>, <a href=\"https://spoonacular.com/recipes/dutch-oven-paella-1479225\">Dutch Oven Paella</a>, and <a href=\"https://spoonacular.com/recipes/dutch-oven-cobbler-423365\">Dutch Oven Cobbler</a> are very similar to this recipe."
-        },
-        {
-            "title": "Shrimp & Sausage \u00c9touff\u00e9e",
-            "sourceUrl": "https://www.foodista.com/recipe/7F7WJGPG/shrimp-sausage-etouffee",
-            "image": "https://img.spoonacular.com/recipes/659909-556x370.jpg",
-            "summary": "Shrimp & Sausage \u00c9touff\u00e9e might be a good recipe to expand your main course recipe box. One serving contains <b>366 calories</b>, <b>30g of protein</b>, and <b>21g of fat</b>. For <b>$3.14 per serving</b>, this recipe <b>covers 21%</b> of your daily requirements of vitamins and minerals. This recipe serves 6. 3 people have tried and liked this recipe. A mixture of butter, garlic cloves, bell pepper, and a handful of other ingredients are all it takes to make this recipe so delicious. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. It is brought to you by Foodista. Overall, this recipe earns a <b>good spoonacular score of 61%</b>. Try <a href=\"https://spoonacular.com/recipes/chicken-and-sausage-etouffee-113849\">Chicken and Sausage Etouffee</a>, <a href=\"https://spoonacular.com/recipes/sausage-and-mushroom-touffe-158788\">Sausage and Mushroom \u00c9touff\u00e9e</a>, and <a href=\"https://spoonacular.com/recipes/shrimp-etouffee-344102\">Shrimp Etouffee</a> for similar recipes."
+            "title": "Chicken Cordon Bleu",
+            "sourceUrl": "https://www.foodista.com/recipe/KFDCB2XH/chicken-cordon-bleu",
+            "image": "https://img.spoonacular.com/recipes/638035-556x370.jpg",
+            "summary": "Chicken Cordon Bleu might be a good recipe to expand your main course repertoire. For <b>$1.81 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. This recipe makes 6 servings with <b>417 calories</b>, <b>43g of protein</b>, and <b>21g of fat</b> each. 162 people found this recipe to be delicious and satisfying. This recipe from Foodista requires kosher salt and pepper, eggs, flour, and swiss cheese. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. Overall, this recipe earns an <b>outstanding spoonacular score of 83%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/chicken-cordon-bleu-38785\">Chicken Cordon Bleu</a>, <a href=\"https://spoonacular.com/recipes/chicken-cordon-bleu-355114\">Chicken Cordon Bleu</a>, and <a href=\"https://spoonacular.com/recipes/chicken-cordon-bleu-558701\">Chicken Cordon Bleu</a>.",
+            "winePairing": {
+                "pairedWines": [],
+                "pairingText": "Sorry, no wine pairings available for this dish"
+            }
         }
     ],
-    "main course": [
+    "pasta": [
         {
-            "title": "Armenian Stew",
-            "sourceUrl": "https://www.foodista.com/recipe/NSYVVMBY/armenian-stew",
-            "image": "https://img.spoonacular.com/recipes/632718-312x231.jpg",
-            "summary": "Armenian Stew might be just the main course you are searching for. One serving contains <b>328 calories</b>, <b>16g of protein</b>, and <b>3g of fat</b>. This gluten free, dairy free, lacto ovo vegetarian, and vegan recipe serves 6 and costs <b>82 cents per serving</b>. <b>Autumn</b> will be even more special with this recipe. A mixture of lentils, water, overnight in water, and a handful of other ingredients are all it takes to make this recipe so tasty. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. 1 person were impressed by this recipe. It is brought to you by Foodista. With a spoonacular <b>score of 67%</b>, this dish is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/khashlama-armenian-lamb-stew-1182003\">Khashlama (Armenian Lamb Stew)</a>, <a href=\"https://spoonacular.com/recipes/armenian-okra-428053\">Armenian Okra</a>, and <a href=\"https://spoonacular.com/recipes/armenian-cucumbers-22364\">Armenian Cucumbers</a>."
+            "title": "Italian Tuna Pasta",
+            "sourceUrl": "https://www.foodista.com/recipe/4QNQXMDZ/italian-tuna-pasta",
+            "image": "https://img.spoonacular.com/recipes/648279-312x231.jpg",
+            "summary": "Italian Tuna Pastan is a Mediterranean main course. Watching your figure? This dairy free and pescatarian recipe has <b>464 calories</b>, <b>38g of protein</b>, and <b>3g of fat</b> per serving. For <b>$2.09 per serving</b>, this recipe <b>covers 35%</b> of your daily requirements of vitamins and minerals. This recipe serves 3. 1 person found this recipe to be yummy and satisfying. From preparation to the plate, this recipe takes around <b>20 minutes</b>. It is brought to you by Foodista. A mixture of chillies, pasta shells, juice of lemon, and a handful of other ingredients are all it takes to make this recipe so tasty. Taking all factors into account, this recipe <b>earns a spoonacular score of 93%</b>, which is excellent. Try <a href=\"https://spoonacular.com/recipes/italian-tuna-pasta-salad-413394\">Italian Tuna Pasta Salad</a>, <a href=\"https://spoonacular.com/recipes/pasta-and-tuna-salad-ensalada-de-pasta-y-atn-226303\">Pastan and Tuna Salad (Ensalada de Pasta y At\u00fan)</a>, and <a href=\"https://spoonacular.com/recipes/raw-tomato-sauce-for-pasta-the-italian-pasta-alla-crudaiola-1530081\">Raw tomato sauce for pasta, the Italian pastan alla crudaiola</a> for similar recipes."
         }
     ]
 }

@@ -13,23 +13,7 @@ def display_random_recipe(recipe):
     print(f"Title: {recipe['title']}")
     print(f"Link: {recipe.get('sourceUrl', 'No URL available')}")
 
-def display_wine_pairing(wine_pairing):
-    print("\nWine Pairing Suggestions:")
-    pairing_text = wine_pairing.get('pairingText', '')
-    if pairing_text:
-        print(pairing_text)
-    else:
-        print("No detailed pairing text available.")
-
-    product_matches = wine_pairing.get('productMatches', [])
-    if product_matches:
-        print("\nRecommended Wines:")
-        for product in product_matches:
-            print(f"- {product['title']} ({product['price']})")
-            print(f"  {product['description']}")
-            print(f"  Link: {product['link']}")
-    else:
-        print("No specific wine products found.")
+#
 
 def display_favourites(favourites):
     print("\nYour Saved Recipes:")

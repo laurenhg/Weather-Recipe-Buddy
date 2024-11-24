@@ -1,4 +1,4 @@
-from spotify_integration import authenticate_spotify_client, get_cooking_playlists
+from services.spotify_integration import authenticate_spotify_client, get_cooking_playlists
 
 def handle_generate_playlist():
     sp = authenticate_spotify_client()

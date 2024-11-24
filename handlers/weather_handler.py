@@ -1,8 +1,7 @@
-from weather import get_weather
+from services.weather import get_weather
 from display import display_weather
-print("display_weather imported successfully")
-from recipe_suggester import suggest_recipe_based_on_weather
-from recipes import get_recipes
+from helpers.recipe_suggester import suggest_recipe_based_on_weather
+from services.recipes import get_recipes
 from save_favourites import save_recipe
 from display import display_recipes
 from user_interaction import get_city_name, ask_yes_no, choose_recipe_to_save

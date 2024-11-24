@@ -1,4 +1,5 @@
 from helpers.cuisine_mapping import get_cuisine_map
+from helpers.category_helper import align_with_spoonacular
 import random
 
 def suggest_recipe_based_on_weather(weather):
@@ -13,15 +14,16 @@ def suggest_recipe_based_on_weather(weather):
         # First prioritize weather and temperature
         recipe_category = suggest_by_weather(description, temp)
         if recipe_category:
-            return recipe_category
+            return align_with_spoonacular(recipe_category)
 
         # If weather-based suggestions fail, check city mapping
         recipe_category = suggest_by_city(city)
         if recipe_category:
-            return recipe_category
+            return align_with_spoonacular(recipe_category)
 
         # Fallback to general temperature-based suggestions
-        return random.choice(["main course", "soup", "grill", "salad"])
+        fallback_category = random.choice(["main course", "soup", "grill", "salad"])
+        return align_with_spoonacular(fallback_category)
     except (TypeError, ValueError) as e:
         print(f"Error processing weather data: {e}")
         return "main course"
@@ -41,16 +43,13 @@ def suggest_by_weather(description, temp):
         "overcast": {"cold": ["stew", "soup"], "mild": ["pasta", "Italian"], "warm": ["casserole", "gnocchi"]},
     }
 
-    # Temperature ranges
     temp_category = categorize_temperature(temp)
 
-    # Match description keywords to categories
     for weather_condition, temp_map in weather_temp_map.items():
         if weather_condition in description:
             suggestions = temp_map.get(temp_category, ["main course"])
             return random.choice(suggestions)
 
-    # Fallback suggestion
     return random.choice(["main course", "soup", "BBQ", "pasta"])
 
 def categorize_temperature(temp):

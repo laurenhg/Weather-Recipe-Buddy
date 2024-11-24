@@ -1,4 +1,3 @@
-
 from helpers.cuisine_mapping import get_cuisine_map
 import random
 
@@ -22,7 +21,7 @@ def suggest_recipe_based_on_weather(weather):
             return recipe_category
 
         # Fallback to general temperature-based suggestions
-        return random.choice(["main course", "soup", "BBQ", "salad"])
+        return random.choice(["main course", "soup", "grill", "salad"])
     except (TypeError, ValueError) as e:
         print(f"Error processing weather data: {e}")
         return "main course"
@@ -36,9 +35,9 @@ def suggest_by_weather(description, temp):
         "drizzle": {"cold": ["broth-based soup"], "mild": ["soup"], "warm": ["pho"]},
         "snow": {"cold": ["stew", "soup"], "mild": ["Italian"], "warm": ["curry"]},
         "thunderstorm": {"cold": ["comfort food"], "mild": ["casserole"], "warm": ["mac and cheese"]},
-        "clear": {"cold": ["main course"], "mild": ["grilled dishes"], "warm": ["BBQ", "salad"]},
-        "sunny": {"cold": ["main course"], "mild": ["grilled dishes"], "warm": ["BBQ", "seafood"]},
-        "cloudy": {"cold": ["soup", "stew"], "mild": ["pasta"], "warm": ["casserole", "pizza"]},
+        "clear": {"cold": ["main course"], "mild": ["grilled dishes"], "warm": ["grill", "salad"]},
+        "sunny": {"cold": ["main course"], "mild": ["grilled dishes"], "warm": ["grill", "seafood"]},
+        "cloudy": {"cold": ["soup", "stew"], "mild": ["pasta"], "warm": ["casserole", "baked"]},
         "overcast": {"cold": ["stew", "soup"], "mild": ["pasta", "Italian"], "warm": ["casserole", "gnocchi"]},
     }
 

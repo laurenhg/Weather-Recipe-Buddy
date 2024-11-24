@@ -9,7 +9,6 @@ def handle_generate_playlist():
     print("\nGenerate a Cooking Playlist!")
     keyword = input("Enter a cuisine type (e.g., Italian, French) or leave blank for a random playlist: ").strip()
 
-    # Default to "cooking" if no keyword is provided
     keyword = keyword if keyword else "cooking"
 
     playlists = get_cooking_playlists(sp, keyword)

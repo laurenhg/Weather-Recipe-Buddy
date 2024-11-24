@@ -21,7 +21,6 @@ def save_recipe(recipe, category):
     dish_name = recipe.get(TITLE_KEY, "No Title")
 
 
-    # Load existing favourites or create a new dictionary
     try:
         with open(FAVOURITES_FILE, "r") as file:
             favourites = json.load(file)
@@ -54,7 +53,6 @@ def save_recipe(recipe, category):
 
     favourites[category].append(simplified_recipe)
 
-    # Save updated favourites to the file
     try:
         with open(FAVOURITES_FILE, "w") as file:
             json.dump(favourites, file, indent=4)

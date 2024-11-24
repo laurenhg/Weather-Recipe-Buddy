@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 
-# Load environment variables once
+
 load_dotenv()
 
 def get_weather(city):
@@ -23,7 +23,7 @@ def get_weather(city):
         response.raise_for_status()
         data = response.json()
 
-        # Check if the API call was successful
+
         if 'success' in data and data['success'] == False:
             error_code = data.get('error', {}).get('code', 'Unknown')
             if error_code == 615:

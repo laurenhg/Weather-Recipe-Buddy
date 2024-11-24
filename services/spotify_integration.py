@@ -17,15 +17,15 @@ def authenticate_spotify_client():
 
 def get_cooking_playlists(sp, keyword="cooking"):
     try:
-        # Add random keyword modifiers for variety
+
         random_modifiers = ["music", "vibes", "favorites", "mix"]
         keyword += f" {random.choice(random_modifiers)}"
 
-        # Fetch a larger pool of playlists
+
         results = sp.search(q=keyword, type="playlist", limit=20)
         playlists = results["playlists"]["items"]
 
-        # Randomly select 5 playlists from the pool
+
         random_playlists = random.sample(playlists, min(len(playlists), 3))
         suggested_playlists = []
 

@@ -3,25 +3,20 @@ from helpers.category_helper import align_with_spoonacular
 import random
 
 def suggest_recipe_based_on_weather(weather):
-    """
-    Suggests a recipe category based on weather conditions and temperature.
-    """
+
     try:
         temp = float(weather.get("temperature", 20))
         description = weather.get("description", "").lower()
         city = weather.get("city", "").lower()
 
-        # First prioritize weather and temperature
         recipe_category = suggest_by_weather(description, temp)
         if recipe_category:
             return align_with_spoonacular(recipe_category)
 
-        # If weather-based suggestions fail, check city mapping
         recipe_category = suggest_by_city(city)
         if recipe_category:
             return align_with_spoonacular(recipe_category)
 
-        # Fallback to general temperature-based suggestions
         fallback_category = random.choice(["main course", "soup", "grill", "salad"])
         return align_with_spoonacular(fallback_category)
     except (TypeError, ValueError) as e:
@@ -29,9 +24,7 @@ def suggest_recipe_based_on_weather(weather):
         return "main course"
 
 def suggest_by_weather(description, temp):
-    """
-    Suggests a recipe category by both weather description and temperature.
-    """
+
     weather_temp_map = {
         "rain": {"cold": ["stew", "soup"], "mild": ["soup", "casserole"], "warm": ["curry", "ramen"]},
         "drizzle": {"cold": ["broth-based soup"], "mild": ["soup"], "warm": ["pho"]},
@@ -53,9 +46,7 @@ def suggest_by_weather(description, temp):
     return random.choice(["main course", "soup", "BBQ", "pasta"])
 
 def categorize_temperature(temp):
-    """
-    Categorizes the temperature into 'cold', 'mild', or 'warm'.
-    """
+
     if temp < 0:
         return "cold"
     elif temp < 15:
@@ -64,9 +55,7 @@ def categorize_temperature(temp):
         return "warm"
 
 def suggest_by_city(city):
-    """
-    Suggests a recipe category based on the city name.
-    """
+
     cuisine_map = get_cuisine_map()
     for key, cuisine in cuisine_map.items():
         if key in city:

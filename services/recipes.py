@@ -46,27 +46,24 @@ def get_recipes(food_category):
         if "results" in data and data["results"]:
             results = data["results"]
             for recipe in results:
-                # Try to get a valid source URL
+
                 source_url = recipe.get("sourceUrl")
                 spoonacular_url = recipe.get("spoonacularSourceUrl")
 
-                # Validate the source_url
                 if source_url and "spoonacular.com" not in source_url:
                     recipe["sourceUrl"] = source_url
                 elif spoonacular_url and "spoonacular.com" not in spoonacular_url:
                     recipe["sourceUrl"] = spoonacular_url
                 else:
-                    recipe["sourceUrl"] = None  # No valid URL available
+                    recipe["sourceUrl"] = None
 
-                # Alternatively, you can accept spoonacularSourceUrl if sourceUrl is not available
                 if not recipe["sourceUrl"]:
-                    recipe["sourceUrl"] = None  # Explicitly set to None if no valid URL
+                    recipe["sourceUrl"] = None
 
                     dish_name = recipe.get("title", "")
 
             return results
 
-        # Fallback to a broader category if no results
         print(f"No recipes found for {food_category}. Trying a broader category...")
         fallback_category = "main course"
         params["query"] = ''
@@ -79,7 +76,7 @@ def get_recipes(food_category):
         if "results" in data and data["results"]:
             results = data["results"]
             for recipe in results:
-                # Same URL validation as above
+
                 source_url = recipe.get("sourceUrl")
                 spoonacular_url = recipe.get("spoonacularSourceUrl")
 

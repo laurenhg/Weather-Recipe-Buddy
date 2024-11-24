@@ -1,5 +1,6 @@
 from weather import get_weather
 from display import display_weather
+print("display_weather imported successfully")
 from recipe_suggester import suggest_recipe_based_on_weather
 from recipes import get_recipes
 from save_favourites import save_recipe

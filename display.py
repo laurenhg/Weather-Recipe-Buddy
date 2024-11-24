@@ -13,8 +13,6 @@ def display_random_recipe(recipe):
     print(f"Title: {recipe['title']}")
     print(f"Link: {recipe.get('sourceUrl', 'No URL available')}")
 
-#
-
 def display_favourites(favourites):
     print("\nYour Saved Recipes:")
     for category, recipes in favourites.items():

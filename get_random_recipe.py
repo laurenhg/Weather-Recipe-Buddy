@@ -25,7 +25,6 @@ def get_random_recipe():
         if "recipes" in data and data["recipes"]:
             recipe = data["recipes"][0]
 
-            # Try to get a valid source URL
             source_url = recipe.get("sourceUrl")
             spoonacular_url = recipe.get("spoonacularSourceUrl")
 
@@ -34,7 +33,7 @@ def get_random_recipe():
             elif spoonacular_url and "spoonacular.com" not in spoonacular_url:
                 recipe["sourceUrl"] = spoonacular_url
             else:
-                recipe["sourceUrl"] = None  # No valid URL available
+                recipe["sourceUrl"] = None
 
             return recipe
         else:

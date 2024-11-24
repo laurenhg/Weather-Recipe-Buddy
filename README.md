@@ -29,15 +29,17 @@
    git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git
    cd Weather-Recipe-Buddy
 
-	2.	Set up a virtual environment:
-python3 -m venv .venv
-source .venv/bin/activate
 
-	3.	Install the dependencies:
+2.Set up a virtual environment:
+```bash
+	python3 -m venv .venv
+	source .venv/bin/activate
 
-pip install -r requirements.txt
+3.Install the dependencies:
+```bash
+	pip install -r requirements.txt
 
-	4.	Set up your .env file with the following keys:
+4.Set up your .env file with the following keys:
 
 WEATHER_API_KEY=<your_weather_api_key>
 SPOONACULAR_API_KEY=<your_spoonacular_api_key>
@@ -46,11 +48,11 @@ SPOTIFY_CLIENT_SECRET=<your_spotify_client_secret>
 
 Usage
 
-	1.	Run the application:
+1.	Run the application:
 
 python3 main.py
 
-	2.	Follow the interactive prompts to:
+2.	Follow the interactive prompts to:
 	•	Enter your city to get weather-based recipe suggestions.
 	•	Save recipes to favorites.
 	•	Generate cooking playlists with Spotify.

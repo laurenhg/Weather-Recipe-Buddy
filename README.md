@@ -3,7 +3,7 @@
 
 ---
 
-## 📍 Overview  
+##  Overview  
 Weather-Recipe Buddy is a Python application that blends **real-time weather data**, **recipe recommendations**, and **Spotify playlists** into one seamless cooking experience.
 
 The app integrates **three different APIs** — WeatherStack, Spoonacular, and Spotify — and uses them to generate dynamic suggestions based on the user’s location, weather conditions, and cuisine preferences.
@@ -55,10 +55,10 @@ Uses Spotify API client credentials, parsed and secured through `.env`.
 
 ##  User Menu  
 1.	Get Recipes Based on Weather
-	2.	View Saved Recipes
-	3.	Get a Random Recipe
-	4.	Generate a Cooking Playlist
-	5.	Exit
+2.	View Saved Recipes
+3.	Get a Random Recipe
+4.	Generate a Cooking Playlist
+5.	Exit
 
     ---
 
@@ -66,7 +66,8 @@ Uses Spotify API client credentials, parsed and secured through `.env`.
 
 ### 1. Clone the repository  
 ```bash
-git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git
+git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git```
+
 cd Weather-Recipe-Buddy
 
 ### 2. (Optional) Create a virtual environment
@@ -97,7 +98,7 @@ Interact with the menu to:
 	•	generate a Spotify playlist
 	•	exit whenever you’re done
 
-** APIs Used
+## APIs Used
 API
 Purpose
 WeatherStack

@@ -9,6 +9,7 @@
 
 ---
 
+
 ##  Overview  
 Weather-Recipe Buddy is a Python application that blends **real-time weather data**, **recipe recommendations**, and **Spotify playlists** into one seamless cooking experience.
 
@@ -22,6 +23,7 @@ This project demonstrates:
 - A cohesive end-to-end user experience  
 
 ---
+
 
 ## 🛠️ Tech Stack & Skills Demonstrated
 
@@ -45,6 +47,7 @@ This project demonstrates:
 - Basic recommendation logic  
 
 ---
+
 
 ##  Features  
 
@@ -82,6 +85,7 @@ Uses Spotify API client credentials, parsed and secured through `.env`.
 
 ---
 
+
 ##  User Menu  
 1.	Get Recipes Based on Weather
 Enter your city name to fetch the current weather.
@@ -101,6 +105,7 @@ Enter your city name to fetch the current weather.
 5.	Exit
 
     ---
+
 
 ## Installation  
 
@@ -126,6 +131,7 @@ SPOONACULAR_API_KEY=<your_spoonacular_api_key>
 SPOTIFY_CLIENT_ID=<your_spotify_client_id>
 SPOTIFY_CLIENT_SECRET=<your_spotify_client_secret>
 
+
 ## How to Use 
 Run The Application 
 python3 main.py
@@ -138,6 +144,7 @@ Interact with the menu to:
 	•	generate a Spotify playlist
 	•	exit whenever you’re done
 
+
 ## APIs Used
 API
 Purpose
@@ -147,6 +154,7 @@ Spoonacular
 Recipe search, cuisine recommendations, random recipes, wine pairings
 Spotify Web API
 Generates cuisine- or mood-based cooking playlists
+
 
 ## Example User Journey
 	1.	Run the app and enter Amsterdam.
@@ -158,6 +166,7 @@ Generates cuisine- or mood-based cooking playlists
 	   •	Generate a Spotify playlist based on cuisine
 	   •	Explore wine pairings
 	6.	Exit or continue exploring random recipes.
+
 
 ## Project Structure
 
@@ -172,6 +181,7 @@ Weather-Recipe-Buddy/
 ├── requirements.txt
 └── README.md
 ```
+
 ## Future Improvements
 Future Improvements
 	•	Add a Streamlit or Flask UI
@@ -180,6 +190,7 @@ Future Improvements
 	•	Expand playlist logic with Spotify’s audio features (mood, tempo)
 	•	Add a usage analytics dashboard (e.g., most-saved recipes)
 	•	Package as a pip-installable tool
+
 
 ## Acknowledgements 
 Thanks to WeatherStack, Spoonacular, and Spotify for providing the APIs that make this project possible.

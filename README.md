@@ -167,6 +167,7 @@ Weather-Recipe-Buddy/
 ├── requirements.txt
 └── README.md
 
+```
 ---
 
 ##  Future Improvements  

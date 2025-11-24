@@ -1,7 +1,7 @@
 # 🌤️ Weather-Recipe Buddy  
 *A multi-API Python application that suggests meals and cooking playlists based on real-time weather and cuisine data.*
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Python-3.11-blue" />
   <img src="https://img.shields.io/badge/Uses-3_APIs-green" />
   <img src="https://img.shields.io/badge/CLI-Application-orange" />

@@ -66,8 +66,8 @@ Uses Spotify API client credentials, parsed and secured through `.env`.
 
 ### 1. Clone the repository  
 ```bash
-git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git```
-
+git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git
+```
 cd Weather-Recipe-Buddy
 
 ### 2. (Optional) Create a virtual environment

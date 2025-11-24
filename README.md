@@ -121,6 +121,7 @@ Generates cuisine- or mood-based cooking playlists
 
 ## Project Structure
 
+```
 Weather-Recipe-Buddy/
 │
 ├── handlers/        # Core logic for recipe, weather, playlist mapping
@@ -130,6 +131,7 @@ Weather-Recipe-Buddy/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 
 ## Acknowledgements 
 Thanks to WeatherStack, Spoonacular, and Spotify for providing the APIs that make this project possible.

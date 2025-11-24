@@ -9,8 +9,7 @@
 
 ---
 
-
-##  Overview  
+## 📍 Overview  
 Weather-Recipe Buddy is a Python application that blends **real-time weather data**, **recipe recommendations**, and **Spotify playlists** into one seamless cooking experience.
 
 The app integrates **three different APIs** — WeatherStack, Spoonacular, and Spotify — and uses them to generate dynamic suggestions based on the user’s location, weather conditions, and cuisine preferences.
@@ -24,177 +23,164 @@ This project demonstrates:
 
 ---
 
-
 ## 🛠️ Tech Stack & Skills Demonstrated
-
 
 **Languages & Libraries**
 - Python 3.11  
-- requests (API calls)  
-- python-dotenv (environment variables)  
-- JSON handling & parsing  
+- requests  
+- python-dotenv  
+- JSON parsing  
 
 **Architecture & Practices**
 - Modular project structure (services, handlers, helpers)  
 - Multi-API integration  
 - API authentication  
-- CLI-based user interface  
-- Configuration via `.env`  
-- Local data persistence (JSON file)
+- CLI interface  
+- `.env` configuration  
+- Local JSON data storage  
 
 **Data Skills**
-- Transforming raw API responses into structured data  
-- Mapping weather conditions → cuisine categories  
+- Transforming raw API responses  
+- Mapping weather → cuisine categories  
 - Basic recommendation logic  
 
 ---
 
+## ✨ Features  
 
-##  Features  
-
-###  Weather-Based Recipe Suggestions  
+### 🌦️ Weather-Based Recipe Suggestions  
 Enter your city and receive curated meal ideas based on:  
 - temperature  
-- conditions (e.g., clouds, rain, snow)  
-- mapped seasonal/cuisine categories  
-
-Suggestions rotate between categories for variety.
+- weather conditions  
+- seasonal/cuisine mapping  
 
 ---
 
-### Cuisine-Based Recommendations  
-The app matches your city name to relevant global cuisines.  
-(For example: “Athens” → Greek cuisine inspiration.)
+### 🍽️ Cuisine-Based Recommendations  
+Cities are matched to global cuisines.  
+Example: *“Athens” → Greek cuisine inspiration.*
 
 ---
 
-###  Spotify Cooking Playlists  
-Generate playlists matched to either:  
-- the cuisine type  
-- the meal suggestion  
-- or purely random for fun  
-
-Uses Spotify API client credentials, parsed and secured through `.env`.
+### 🎵 Spotify Cooking Playlists  
+Generate playlists matched to:  
+- cuisine type  
+- meal suggestion  
+- or random cooking vibes  
 
 ---
 
-###  Additional Features  
-- **Save Favorite Recipes** (stored locally in JSON format)  
-- **Random Recipe Generator** using Spoonacular  
-- **Wine Pairing Options** (where supported by API)  
-- **Clear CLI interaction menu**  
+### ⭐ Additional Features  
+- Save favorite recipes locally  
+- Random recipe generator  
+- Optional wine pairings  
+- Clean, simple CLI menu  
 
 ---
 
-
-##  User Menu  
+## 🧩 User Menu  
 1.	Get Recipes Based on Weather
-Enter your city name to fetch the current weather.
-   - Get recipe suggestions based on weather conditions, temperature, or city cuisine.
-   - Optionally save a recipe to your favorites or explore wine pairings.Enter your city name to fetch the current weather.
-   - Get recipe suggestions based on weather conditions, temperature, or city cuisine.
-   - Optionally save a recipe to your favorites or explore wine pairings.
+	•	Enter your city to fetch weather data.
+	•	Get recipe suggestions based on temperature, conditions, or cuisine.
+	•	Optionally save a recipe or explore wine pairings.
 2.	View Saved Recipes
-   - Access your saved recipes stored in a local JSON file.
-   - Review recipes and use the links to view detailed instructions.
+	•	Access saved recipes in local JSON storage.
+	•	View recipe links for detailed instructions.
 3.	Get a Random Recipe
-   - Fetch a random recipe from the Spoonacular API.
-   - Optionally save it to your favorites or generate wine pairings.
+	•	Fetch a random recipe from Spoonacular.
+	•	Optionally save it or explore wine pairing options.
 4.	Generate a Cooking Playlist
-   - Choose a cuisine (e.g., Italian, French) or opt for a random cooking playlist.
-   - Enjoy curated playlists from Spotify to enhance your cooking experience.
+	•	Choose a cuisine type or generate a random playlist.
+	•	Enjoy curated Spotify cooking music.
 5.	Exit
 
-    ---
+---
 
-
-## Installation  
+## 🔌 Installation  
 
 ### 1. Clone the repository  
-```bash
 git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git
-```
 cd Weather-Recipe-Buddy
 
-### 2. (Optional) Create a virtual environment
+### 2. (Optional) Create a virtual environment  
 python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate     # Windows
+source venv/bin/activate     # macOS/Linux
+venv\Scripts\activate        # Windows
 
-### 3. Install Dependencies
+### 3. Install dependencies  
 pip install -r requirements.txt
 
-### 4. Add environment variables
-Create a .env file in the project root:
-
-WEATHER_API_KEY=<your_weatherstack_api_key>
+### 4. Add environment variables  
+Create a `.env` file in the project root:WEATHER_API_KEY=<your_weatherstack_api_key>
 SPOONACULAR_API_KEY=<your_spoonacular_api_key>
 SPOTIFY_CLIENT_ID=<your_spotify_client_id>
 SPOTIFY_CLIENT_SECRET=<your_spotify_client_secret>
 
+---
 
-## How to Use 
-Run The Application
-```bash
-python3 main.py```
+## ▶️ How to Use  
 
-Interact with the menu to:
-	•	fetch weather-based recipes
-	•	save favourites
-	•	explore new cuisines
-	•	get random recipe ideas
-	•	generate a Spotify playlist
-	•	exit whenever you’re done
+Run the application:
+Then interact with the menu to:  
+- fetch weather-based recipes  
+- save favourites  
+- explore cuisines  
+- generate Spotify playlists  
+- get random recipes  
+- exit anytime  
 
+---
 
-## APIs Used
-API
-Purpose
-WeatherStack
-Fetches current weather data for a given city
-Spoonacular
-Recipe search, cuisine recommendations, random recipes, wine pairings
-Spotify Web API
-Generates cuisine- or mood-based cooking playlists
+## 🌐 APIs Used  
 
+| API | Purpose |
+|------|---------|
+| **WeatherStack** | Fetches current weather data |
+| **Spoonacular** | Recipes, cuisines, random recipes, wine pairing |
+| **Spotify Web API** | Cooking playlists based on cuisine or mood |
 
-## Example User Journey
-	1.	Run the app and enter Amsterdam.
-	2.	App fetches current temperature + conditions.
-	3.	Weather → mapped to a cuisine or seasonal food category.
-	4.	User receives curated recipe suggestions with links.
-	5.	Optionally:
-	   •	Save a favorite recipe
-	   •	Generate a Spotify playlist based on cuisine
-	   •	Explore wine pairings
-	6.	Exit or continue exploring random recipes.
+---
 
+## 🧭 Example User Journey  
 
-## Project Structure
+1. Run the app and enter **Amsterdam**.  
+2. App fetches temperature + weather conditions.  
+3. Weather maps to cuisines or seasonal dishes.  
+4. User receives curated recipe suggestions.  
+5. User may:  
+   - save a recipe  
+   - generate a Spotify playlist  
+   - explore wine pairing  
+6. Continue exploring or exit.
 
-```
+---
+
+## 📂 Project Structure  
 Weather-Recipe-Buddy/
 │
-├── handlers/        # Core logic for recipe, weather, playlist mapping
-├── helpers/         # Reusable formatting and utility functions
-├── services/        # API request logic (weather, recipe, spotify)
+├── handlers/        # Core logic for recipes, weather, playlists
+├── helpers/         # Utility functions
+├── services/        # API requests (weather, recipes, spotify)
 ├── saved_recipes.json
 ├── main.py
 ├── requirements.txt
 └── README.md
-```
 
-## Future Improvements
-Future Improvements
-	•	Add a Streamlit or Flask UI
-	•	Store saved recipes in SQLite instead of JSON
-	•	Add API call caching to reduce repeated requests
-	•	Expand playlist logic with Spotify’s audio features (mood, tempo)
-	•	Add a usage analytics dashboard (e.g., most-saved recipes)
-	•	Package as a pip-installable tool
+---
+
+## 🚀 Future Improvements  
+
+- Add a Streamlit or Flask web UI  
+- Store recipes in SQLite instead of JSON  
+- Cache API responses  
+- Enrich playlist logic using Spotify audio features  
+- Add analytics (e.g., most-saved recipes)  
+- Package as a pip-installable tool  
+
+---
+
+## 🙏 Acknowledgements  
+Thanks to **WeatherStack**, **Spoonacular**, and **Spotify** for providing the APIs that make this project possible.
 
 
-## Acknowledgements 
-Thanks to WeatherStack, Spoonacular, and Spotify for providing the APIs that make this project possible.
-
-
+    

@@ -1,7 +1,6 @@
 # Weather-Recipe Buddy
 
-**Weather-Recipe Buddy** is a Python-based interactive application that combines real-time weather data with recipe suggestions, curated playlists, and wine pairings for a delightful and personalized cooking experience.
-
+**Weather-Recipe Buddy** A multi-API Python application that suggests meals and cooking playlists based on real-time weather and cuisine data.
 ---
 
 ## Features

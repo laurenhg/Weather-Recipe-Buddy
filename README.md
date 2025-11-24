@@ -9,7 +9,7 @@
 
 ---
 
-## 📍 Overview  
+##  Overview  
 Weather-Recipe Buddy is a Python application that blends **real-time weather data**, **recipe recommendations**, and **Spotify playlists** into one seamless cooking experience.
 
 The app integrates **three different APIs** — WeatherStack, Spoonacular, and Spotify — and uses them to generate dynamic suggestions based on the user’s location, weather conditions, and cuisine preferences.
@@ -23,7 +23,7 @@ This project demonstrates:
 
 ---
 
-## 🛠️ Tech Stack & Skills Demonstrated
+##  Tech Stack & Skills Demonstrated
 
 **Languages & Libraries**
 - Python 3.11  
@@ -46,9 +46,9 @@ This project demonstrates:
 
 ---
 
-## ✨ Features  
+##  Features  
 
-### 🌦️ Weather-Based Recipe Suggestions  
+###  Weather-Based Recipe Suggestions  
 Enter your city and receive curated meal ideas based on:  
 - temperature  
 - weather conditions  
@@ -56,13 +56,13 @@ Enter your city and receive curated meal ideas based on:
 
 ---
 
-### 🍽️ Cuisine-Based Recommendations  
+###  Cuisine-Based Recommendations  
 Cities are matched to global cuisines.  
 Example: *“Athens” → Greek cuisine inspiration.*
 
 ---
 
-### 🎵 Spotify Cooking Playlists  
+###  Spotify Cooking Playlists  
 Generate playlists matched to:  
 - cuisine type  
 - meal suggestion  
@@ -70,7 +70,7 @@ Generate playlists matched to:
 
 ---
 
-### ⭐ Additional Features  
+###  Additional Features  
 - Save favorite recipes locally  
 - Random recipe generator  
 - Optional wine pairings  
@@ -78,7 +78,7 @@ Generate playlists matched to:
 
 ---
 
-## 🧩 User Menu  
+##  User Menu  
 1.	Get Recipes Based on Weather
 	•	Enter your city to fetch weather data.
 	•	Get recipe suggestions based on temperature, conditions, or cuisine.
@@ -96,7 +96,7 @@ Generate playlists matched to:
 
 ---
 
-## 🔌 Installation  
+##  Installation  
 
 ### 1. Clone the repository  
 git clone https://github.com/laurenhg/Weather-Recipe-Buddy.git
@@ -118,7 +118,7 @@ SPOTIFY_CLIENT_SECRET=<your_spotify_client_secret>
 
 ---
 
-## ▶️ How to Use  
+##  How to Use  
 
 Run the application:
 Then interact with the menu to:  
@@ -131,7 +131,7 @@ Then interact with the menu to:
 
 ---
 
-## 🌐 APIs Used  
+##  APIs Used  
 
 | API | Purpose |
 |------|---------|
@@ -141,7 +141,7 @@ Then interact with the menu to:
 
 ---
 
-## 🧭 Example User Journey  
+##  Example User Journey  
 
 1. Run the app and enter **Amsterdam**.  
 2. App fetches temperature + weather conditions.  
@@ -155,8 +155,9 @@ Then interact with the menu to:
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 Weather-Recipe-Buddy/
+```
 │
 ├── handlers/        # Core logic for recipes, weather, playlists
 ├── helpers/         # Utility functions
@@ -168,7 +169,7 @@ Weather-Recipe-Buddy/
 
 ---
 
-## 🚀 Future Improvements  
+##  Future Improvements  
 
 - Add a Streamlit or Flask web UI  
 - Store recipes in SQLite instead of JSON  
@@ -179,7 +180,7 @@ Weather-Recipe-Buddy/
 
 ---
 
-## 🙏 Acknowledgements  
+##  Acknowledgements  
 Thanks to **WeatherStack**, **Spoonacular**, and **Spotify** for providing the APIs that make this project possible.
 
 

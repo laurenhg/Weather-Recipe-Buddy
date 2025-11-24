@@ -23,6 +23,14 @@ This project demonstrates:
 
 ---
 
+## 📸 Preview
+
+### Main Menu
+![Weather-Recipe Buddy main menu](assets/menu.png)
+
+### Weather-Based Suggestions Example
+![Weather-based recipe example](assets/recipes.png)
+
 ##  Tech Stack & Skills Demonstrated
 
 **Languages & Libraries**

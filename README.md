@@ -27,6 +27,7 @@ This project demonstrates:
 
 ## 🛠️ Tech Stack & Skills Demonstrated
 
+
 **Languages & Libraries**
 - Python 3.11  
 - requests (API calls)  
@@ -133,8 +134,9 @@ SPOTIFY_CLIENT_SECRET=<your_spotify_client_secret>
 
 
 ## How to Use 
-Run The Application 
-python3 main.py
+Run The Application
+```bash
+python3 main.py```
 
 Interact with the menu to:
 	•	fetch weather-based recipes
